@@ -19,11 +19,13 @@ function App() {
       </div>
       <div className="nys-grid-row">
           {/* 
-            Demo Button 1 uses the onNysClick property, when I click it in the browser console I see:
+            Demo Button 1 uses the onNysClick property, 
+            when I click it in the browser console I see:
               - "handleButtonClick fired with stale state" message logged to the console.
               - handleButtonClick() firing many times.
 
-            Demo Button 2 uses the onClick property, when I click it in the browser console I see:
+            Demo Button 2 uses the onClick property, 
+            when I click it in the browser console I see:
               - "handleButtonClick fired with stale state" message is not logged to the console
                 because the state is always up to date when handleButtonClick() fires.
               - handleButtonClick() firing correctly once per click.
