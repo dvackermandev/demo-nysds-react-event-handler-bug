@@ -8,7 +8,7 @@ function App() {
   const handleButtonClick = () => {
     console.count("Button click")
     setValue(value + 1)
-    // Check for non updated state
+    // Check for stale state
     if(value === 0){console.log("handleButtonClick fired with stale state")}
   }
 
